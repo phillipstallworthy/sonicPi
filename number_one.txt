@@ -1,0 +1,35 @@
+# Welcome to Sonic Pi v3.1
+x = 0.21
+y = 0.24
+use_synth :piano
+play :D4, amp: 0.7
+play :D2, amp: 0.4, release: 8
+play :A2, amp: 0.4, release: 8
+play :D3, amp: 0.4, release: 8
+sleep x
+play :D4, amp: 0.9
+sleep y
+play :E4, amp: 0.7
+sleep x
+play :E4, amp: 0.9
+sleep y
+play :F4, amp: 0.7
+sleep x
+play :F4, amp: 0.9
+#top
+sleep x
+play :G4, amp: 1
+sleep x
+play :F4, amp: 0.7
+sleep x
+play :F4, amp: 0.9
+sleep y
+play :E4, amp: 0.7
+sleep x
+play :E4, amp: 0.9
+sleep y
+play :D4, amp: 0.7
+sleep x
+play :D4, amp: 0.9
+sleep x
+play :E4, amp: 1
